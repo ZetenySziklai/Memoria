@@ -68,22 +68,3 @@ ul li.swap {
     animation: swap 0.5s forwards;
 }
 
-/* Filmek cseréjének animációja */
-@keyframes swap {
-    0% {
-        transform: scale(1);
-    }
-    50% {
-        transform: scale(0);
-    }
-    100% {
-        transform: scale(1);
-    }
-}
-
-@media (max-width: 600px) {
-    ul li {
-        font-size: 0.9rem;
-        padding: 10px;
-    }
-}
